@@ -1,0 +1,32 @@
+body{
+    background-color: #0d0dc8;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+#centro{
+    padding: 15px;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+#txt{
+    margin-bottom: 15px;
+}
+
+#imagem img{
+    width: 100%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

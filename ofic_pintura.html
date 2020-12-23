@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina de Pintura</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Oficina de Pintura</h1>
+    </header>
+
+    <section id="centro">
+        <div id="txt">
+            Escolha a cor: 
+            <input type="radio" name="cor" id="cyan" value="1" checked>
+            <label for="cyan">Ciano</label>
+            <input type="radio" name="cor" id="red" value="2">
+            <label for="red">Vermelho</label>
+            <input type="radio" name="cor" id="green" value="3">
+            <label for="green">Verde</label>
+            <input type="radio" name="cor" id="yellow" value="4">
+            <label for="yellow">Amarelo</label>
+            <input type="radio" name="cor" id="orange" value="5">
+            <label for="orange">Laranja</label>
+            <input type="radio" name="cor" id="pink" value="6">
+            <label for="pink">Rosa</label>
+            <input type="radio" name="cor" id="blue" value="7">
+            <label for="blue">Azul</label>
+            
+            <p>
+                <input type="button" value="Alterar" onclick="pintar()">
+            </p>
+        </div>
+        <div id="imagem">
+            <img src="img/bmwcianoL.png" alt="Foto de um carro" id="imgm">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
