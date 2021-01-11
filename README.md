@@ -1,2 +1,2 @@
 # Olá, Mundo! 😎
-Pequenos projetos para práticas de aprendizados.
+Pequeno projeto para por em prático os conhecimentos adquiridos no curso de javascript do cursoemvideo.
