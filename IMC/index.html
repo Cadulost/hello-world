@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +12,13 @@
     <h1 class="title">IMC - Índice de Massa Corporal</h1>
     <div class="container">
         <div class="area">
-            <p>Peso:</p><input class="input" placeholder="00.00">
+            <p>Peso:</p><input class="input" id="mass" placeholder="00.00">
         </div>
         <div class="area">
-            <p>Altura:</p><input class="input" placeholder="0.00">
+            <p>Altura:</p><input class="input" id="height" placeholder="0.00">
         </div>
         
-        <button class="btn">Calcular</button>
+        <button class="btn" onclick="calcular()">Calcular</button>
     </div>
     <div class="res">
         Calcule seu IMC!
