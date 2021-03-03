@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root{
-    --amarelo: #F7B733;
-    --verde: #4ABDAC;
-    --cinza: #DFDCE3;
-    --red: #FC4A1A;
+    --cor1: #FFC300;
+    --cor2: #0375B4;
+    --cor3: #007849;
+    --cor4: #262228;
 }
 *{
     margin: 0;
@@ -15,7 +17,8 @@ html, body{
 }
 
 body{
-    background-color: var(--verde);
+    background-color: var(--cor2);
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -24,12 +27,17 @@ header{
     align-items: center;
     height: 120px;
     padding: 0 20px;
-    background-color: var(--cinza);
-    color: black;
+    background-color: var(--cor1);
+    color: w;
 }
 
 .description{
-    font: italic 15pt Arial;
+    font: italic 15pt 'Roboto';
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
 }
 
 .links{
@@ -46,22 +54,22 @@ header{
     padding: 10px 20px;
     text-align: center;
     border-radius: 5px;
-    color: black;
     font-weight: 700;
-    color: white;
-    background-color: var(--amarelo);
+    color: var(--cor4);
+    background-color: var(--cor1);
 }
 
 .links a:hover{
-    color: black;
-    background-color: var(--cinza);
+    color: white;
+    background-color: var(--cor3);
+    border: 2px solid white;
 }
 
 .rodape{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cinza);
+    background-color: var(--cor1);
     height: 100px;
     position: absolute;
     bottom: 0;
