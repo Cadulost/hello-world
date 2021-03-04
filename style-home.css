@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;700&display=swap');
 
 :root{
     --cor1: #FFC300;
@@ -21,20 +21,51 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/*NAVBAR*/
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
-    padding: 0 20px;
-    background-color: var(--cor1);
-    color: w;
+    padding: 30px 10%;
+    height: 80px;
 }
 
-.description{
-    font: italic 15pt 'Roboto';
+.logo{
+    cursor: pointer;
 }
 
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+#obMenu{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*CONTEÚDO*/
 .container{
     width: 960px;
     margin: 0 auto;
@@ -70,7 +101,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: var(--cor1);
-    height: 100px;
+    height: 70px;
     position: absolute;
     bottom: 0;
     width: 100%;
