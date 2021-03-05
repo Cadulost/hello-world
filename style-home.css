@@ -30,7 +30,9 @@ li, a {
     text-decoration: none;
 }
 
-header{
+header{height: 80px;}
+
+.main_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,6 +73,16 @@ header{
     margin: 0 auto;
 }
 
+.title_js{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.js_descrip{
+    padding: 15px;
+    text-align: justify;
+}
+
 .links{
     display: flex;
     flex-direction: column;
@@ -101,10 +113,23 @@ header{
     justify-content: center;
     align-items: center;
     background-color: var(--cor1);
-    height: 70px;
+    height: 50px;
     position: absolute;
     bottom: 0;
     width: 100%;
     color:black;
-    font: italic 15pt Arial;
+    font: italic 1em Arial;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 450px){
+    .container{
+        width: 90%;
+    }
+    .main_header{
+        padding: 20px 5%;
+    }
+    .logo{
+        font-size: 1.2em;
+    }
 }
