@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;700&display=swap');
 
 :root{
-    --cor1: #FFC300;
-    --cor2: #0375B4;
-    --cor3: #007849;
-    --cor4: #262228;
+    --amarelo: #FFC300;
+    --azul: #0375B4;
+    --verde: #007849;
+    --preto: #262228;
 }
 *{
     margin: 0;
@@ -17,8 +17,9 @@ html, body{
 }
 
 body{
-    background-color: var(--cor2);
+    background-color: var(--azul);
     font-family: 'Roboto', sans-serif;
+    color:white;
 }
 
 /*NAVBAR*/
@@ -85,27 +86,36 @@ header{height: 80px;}
 }
 
 .links{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
+    text-align: center;
 }
 
-.links a{
+.links h3{
+    font-size: 1.5em;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.projetos a{
     text-decoration: none;
-    margin: 10px 0;
-    
     width: 120px;
     padding: 10px 20px;
     text-align: center;
     border-radius: 5px;
     font-weight: 700;
-    color: var(--cor4);
-    background-color: var(--cor1);
+    color: var(--preto);
+    background-color: var(--amarelo);
+    margin: 5px 10px;
 }
 
-.links a:hover{
+.projetos a:hover{
     color: white;
-    background-color: var(--cor3);
+    background-color: var(--verde);
     border: 2px solid white;
 }
 
@@ -113,7 +123,7 @@ header{height: 80px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor1);
+    background-color: var(--amarelo);
     height: 50px;
     position: absolute;
     bottom: 0;
